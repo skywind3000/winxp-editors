@@ -4,7 +4,11 @@ YEdit is a Win32/Win64 recreation of the MS-DOS 5 editor. It attempts to be fait
 
 YEdit supports mouse input including the scroll wheel. Win32 mouse support in Windows Terminal requires version 1.10 or above.
 
-![](yedit.png)
+![](yedit2.png)
+
+For more information, please visit the following post:
+
+- [Yedit – The missing edit.com replacement for modern Windows](https://virtuallyfun.com/2021/03/03/yedit-the-missing-edit-com-replacement-for-modern-windows/)
 
 `yedit` and `yhexedit` are parts of project [yori](http://www.malsmith.net/yori/).
 

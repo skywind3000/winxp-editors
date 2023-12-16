@@ -33,5 +33,7 @@
 
 /.vscode/*
 *.GID
+/vile/*
+/jesspa/*
 
 

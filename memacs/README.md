@@ -15,6 +15,14 @@ Start with `emacs.rc` and macros (`*.cmd` files) loaded:
 
 ![](memacs1.png)
 
+Press `F8` can load snippets for certain languages (see the top-right window):
+
+![](memacs3.png)
+
+Press `F5` to hide the function window:
+
+![](memacs4.png)
+
 Clear `memacs.exe` startup (without any `emacs.rc` and macros):
 
 ![](memacs2.png)

@@ -15,7 +15,7 @@ Start with `emacs.rc` and macros (`*.cmd` files) loaded:
 
 ![](memacs1.png)
 
-Press `F8` can load snippets for certain languages (see the top-right window):
+Press `F8` can load languages specific help function (see the top-right window):
 
 ![](memacs3.png)
 

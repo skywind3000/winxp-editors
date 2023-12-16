@@ -1,2 +1,7 @@
 # winxp-editors
-Text Editors for Windows XP+
+
+The text editor preservation project for Windows XP+.
+
+
+
+

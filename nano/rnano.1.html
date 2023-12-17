@@ -1,5 +1,5 @@
-<!-- Creator     : groff version 1.22.4 -->
-<!-- CreationDate: Sun May 31 22:24:38 2020 -->
+<!-- Creator     : groff version 1.23.0 -->
+<!-- CreationDate: Thu Aug 17 19:53:57 2023 -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -36,7 +36,7 @@
 </h2>
 
 
-<p style="margin-left:11%; margin-top: 1em">rnano &minus; a
+<p style="margin-left:9%; margin-top: 1em">rnano &minus; a
 restricted nano</p>
 
 <h2>SYNOPSIS
@@ -44,7 +44,7 @@ restricted nano</p>
 </h2>
 
 
-<p style="margin-left:11%; margin-top: 1em"><b>rnano</b>
+<p style="margin-left:9%; margin-top: 1em"><b>rnano</b>
 [<i>options</i>]
 [[+<i>line</i>[,<i>column</i>]]&nbsp;<i>file</i>]...</p>
 
@@ -53,74 +53,110 @@ restricted nano</p>
 </h2>
 
 
-<p style="margin-left:11%; margin-top: 1em"><b>rnano</b>
+<p style="margin-left:9%; margin-top: 1em"><b>rnano</b>
 runs the <b>nano</b> editor in restricted mode. This allows
 editing only the specified file or files, and doesn&rsquo;t
 allow the user access to the filesystem nor to a command
 shell.</p>
 
-<p style="margin-left:11%; margin-top: 1em">In restricted
+<p style="margin-left:9%; margin-top: 1em">In restricted
 mode, <b>nano</b> will:</p>
 
 <table width="100%" border="0" rules="none" frame="void"
        cellspacing="0" cellpadding="0">
 <tr valign="top" align="left">
-<td width="11%"></td>
+<td width="9%"></td>
 <td width="1%">
 
 
 <p>&bull;</p></td>
 <td width="2%"></td>
-<td width="86%">
+<td width="75%">
 
 
-<p>not allow suspending;</p></td></tr>
+<p>not make backups;</p></td>
+<td width="13%">
+</td></tr>
 <tr valign="top" align="left">
-<td width="11%"></td>
+<td width="9%"></td>
 <td width="1%">
 
 
 <p>&bull;</p></td>
 <td width="2%"></td>
-<td width="86%">
+<td width="75%">
+
+
+<p>not allow suspending;</p></td>
+<td width="13%">
+</td></tr>
+<tr valign="top" align="left">
+<td width="9%"></td>
+<td width="1%">
+
+
+<p>&bull;</p></td>
+<td width="2%"></td>
+<td width="75%">
+
+
+<p>not allow spell checking;</p></td>
+<td width="13%">
+</td></tr>
+<tr valign="top" align="left">
+<td width="9%"></td>
+<td width="1%">
+
+
+<p>&bull;</p></td>
+<td width="2%"></td>
+<td width="75%">
+
+
+<p>not read nor write the history files;</p></td>
+<td width="13%">
+</td></tr>
+<tr valign="top" align="left">
+<td width="9%"></td>
+<td width="1%">
+
+
+<p>&bull;</p></td>
+<td width="2%"></td>
+<td width="75%">
 
 
 <p>not allow saving the current buffer under a different
-name;</p> </td></tr>
+name;</p> </td>
+<td width="13%">
+</td></tr>
 <tr valign="top" align="left">
-<td width="11%"></td>
+<td width="9%"></td>
 <td width="1%">
 
 
 <p>&bull;</p></td>
 <td width="2%"></td>
-<td width="86%">
+<td width="75%">
 
 
 <p>not allow inserting another file or opening a new
-buffer;</p> </td></tr>
+buffer;</p> </td>
+<td width="13%">
+</td></tr>
 <tr valign="top" align="left">
-<td width="11%"></td>
+<td width="9%"></td>
 <td width="1%">
 
 
 <p>&bull;</p></td>
 <td width="2%"></td>
-<td width="86%">
+<td width="75%">
 
 
-<p>not allow appending or prepending to any file;</p></td></tr>
-<tr valign="top" align="left">
-<td width="11%"></td>
-<td width="1%">
-
-
-<p>&bull;</p></td>
-<td width="2%"></td>
-<td width="86%">
-
-
-<p>not make backup files nor do spell checking.</p></td></tr>
+<p>not allow appending or prepending to any file.</p></td>
+<td width="13%">
+</td></tr>
 </table>
 
 <h2>OPTIONS
@@ -129,21 +165,21 @@ buffer;</p> </td></tr>
 
 
 
-<p style="margin-left:11%; margin-top: 1em"><b>&minus;h</b>,
-<b>&minus;&minus;help</b></p>
+<p style="margin-left:9%; margin-top: 1em"><b>&minus;h</b>,
+<b>&minus;?</b>, <b>&minus;&minus;help</b></p>
 
-<p style="margin-left:22%;">Show the available command-line
+<p style="margin-left:18%;">Show the available command-line
 options and exit.</p>
 
-<p style="margin-left:11%; margin-top: 1em">For all
-existing options, see the <b>nano</b>(1) man page.</p>
+<p style="margin-left:9%; margin-top: 1em">For all existing
+options, see the <b>nano</b>(1) man page.</p>
 
 <h2>BUGS
 <a name="BUGS"></a>
 </h2>
 
 
-<p style="margin-left:11%; margin-top: 1em">Please report
+<p style="margin-left:9%; margin-top: 1em">Please report
 bugs via
 <i>https://savannah.gnu.org/bugs/?group=nano</i>.</p>
 
@@ -153,7 +189,7 @@ bugs via
 
 
 
-<p style="margin-left:11%; margin-top: 1em"><i>https://nano-editor.org/</i></p>
+<p style="margin-left:9%; margin-top: 1em"><i>https://nano-editor.org/</i></p>
 
 <h2>SEE ALSO
 <a name="SEE ALSO"></a>
@@ -161,7 +197,7 @@ bugs via
 
 
 
-<p style="margin-left:11%; margin-top: 1em"><i><b>nano</b></i>(1)</p>
+<p style="margin-left:9%; margin-top: 1em"><i><b>nano</b></i>(1)</p>
 <hr>
 </body>
 </html>

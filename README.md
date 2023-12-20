@@ -6,7 +6,7 @@ The text editor preservation project for Windows XP+.
 
 Check the README.md in the different folder.
 
-## List of CLI Editors
+## Console Editors
 
 | Name | Keymap Style | How to Quit | Description | 
 |-|-|-|-|
@@ -17,7 +17,7 @@ Check the README.md in the different folder.
 | [yedit](yedit) | notepad | Ctrl+q | YEdit is a Win32/Win64 recreation of the MS-DOS 5 editor |
 | [zvi](zvi) | vi | :q | Smallest Vi-clone Text Editor for Windows CLI and SSH session (only 62KB) |
 
-## List of GUI Editors
+## GUI Editors
 
 (TODO)
 
